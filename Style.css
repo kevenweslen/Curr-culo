@@ -1,0 +1,123 @@
+
+@font-face {
+    font-family: Electrolize-Regular;
+    src: url(./Resources/Fonts/Electrolize-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+/* Reset e configurações gerais */
+body {
+    font-family: "Electrolize-Regular", sans-serif;
+    font-size: 22px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos para links */
+a {
+    color: #3498db;
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 20px;
+}
+
+header img {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    border: 5px solid black;
+
+}
+
+header h1 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.contact-info {
+    margin: 10px 0;
+    font-size: 0.95em;
+}
+
+/* Seções */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #3498db;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+/* Experiência Profissional */
+.job, .education {
+    margin-bottom: 15px;
+}
+
+.job-title, .degree {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.company, .institution {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.date {
+    color: #7f8c8d;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+    margin-top: 8px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Projetos */
+.project {
+    margin-bottom: 15px;
+}
+
+.project-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+    
+    header {
+        padding-bottom: 15px;
+    }
+    
+    .contact-info p {
+        margin: 5px 0;
+    }
+}
